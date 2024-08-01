@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 .layout {
     width: 100%;
@@ -19,7 +19,18 @@ header {
 /*--------------------------------------- Main Styles -----------------------------------------*/
 main {
     flex-grow: 1;
+    background-color: white;
+}
+main>div>.row{
     background-color: rgb(240, 240, 240);
+}
+.titulos{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.resultado{
+    color: black;
+    font-size: 30px !important;
 }
 /*--------------------------------------- Footer Styles ---------------------------------------*/
 footer {
