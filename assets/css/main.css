@@ -32,6 +32,23 @@ main>div>.row{
     color: black;
     font-size: 30px !important;
 }
+.form-check .form-check-input{
+    float: none !important;
+}
+#contenedor{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+.cuadro{
+    width: 300px !important;
+}
+.texto{
+    height: 100px !important;
+}
+.close{
+    padding-right: 30px !important;
+}
 /*--------------------------------------- Footer Styles ---------------------------------------*/
 footer {
     /*min-height: 5vh;*/
